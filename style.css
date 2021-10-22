@@ -14,6 +14,9 @@ header {
 #table {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
+  width: 100%;
+  padding: 0 15%;
 }
 .list {
   display: flex;
